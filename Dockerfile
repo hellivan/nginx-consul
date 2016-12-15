@@ -1,6 +1,6 @@
 FROM nginx:1.11.4-alpine
 
-ENV CONSUL_HOST localhost
+ENV CONSUL_HOST consul
 ENV CONSUL_PORT 8500
 
 ENV TMPL_DIR /etc/ctmpl
