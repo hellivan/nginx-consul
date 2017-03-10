@@ -1,4 +1,4 @@
-FROM nginx:1.11.4-alpine
+FROM nginx:1.11.10-alpine
 
 ENV CONSUL_HOST consul
 ENV CONSUL_PORT 8500
