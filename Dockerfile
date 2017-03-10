@@ -25,4 +25,4 @@ RUN apk update &&\
     
 
 
-CMD ["sh", "/root/start.sh"]
+ENTRYPOINT ["sh", "/root/start.sh"]
